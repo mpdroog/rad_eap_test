@@ -2,7 +2,7 @@ FROM frolvlad/alpine-gcc:latest
 
 LABEL maintainer="chris.rohrer@ubuntunet.net"
 
-ARG WPA_SUPPLICANT_VERSION=2.8
+ARG WPA_SUPPLICANT_VERSION=2.10
 
 WORKDIR /eapol
 
